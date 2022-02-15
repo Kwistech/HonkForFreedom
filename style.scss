@@ -47,8 +47,6 @@ body {
     background-image: url("canadian-flag.png");
     background-repeat: no-repeat;
     background-position: center center;
-    // background-attachment: fixed;
-    // background-size: cover;
     margin: auto;
     max-width: 1080px;
     height: 720px;
@@ -78,7 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 720px;
-  }
+}
 
 footer {
   display: block;
