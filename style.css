@@ -1,0 +1,80 @@
+body {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media (min-width: 64em) {
+  body {
+    font-size: 1.2em;
+    line-height: 1.8;
+  }
+}
+
+@media (min-width: 85.375em) {
+  body {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 120em) {
+  body {
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 160em) {
+  body {
+    font-size: 1.6em;
+  }
+}
+
+.container {
+  background-image: url("canadian-flag.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+  max-width: 1080px;
+  height: 720px;
+  position: relative;
+}
+
+.truck {
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  -webkit-box-shadow: 0 3px 10px #000;
+  -moz-box-shadow: 0 3px 10px #000;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1s ease;
+}
+
+.truck:hover {
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(1deg);
+  -webkit-box-shadow: 0 3px 10px #000;
+  -moz-box-shadow: 0 3px 10px #000;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 720px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: x-small;
+}
+/*# sourceMappingURL=style.css.map */
